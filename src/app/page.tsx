@@ -3,6 +3,7 @@
 import AboutMe from "./components/AboutMe";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
+import Skills from "./components/Skills";
 
 export default function Home() {
 	return (
@@ -15,6 +16,9 @@ export default function Home() {
 			</div>
 			<div className="w-3/4 snap-center ">
 				<AboutMe />
+			</div>
+			<div className="w-3/4 snap-center">
+				<Skills />
 			</div>
 		</div>
 	);

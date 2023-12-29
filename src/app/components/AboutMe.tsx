@@ -4,10 +4,10 @@ import { Fade } from "react-awesome-reveal";
 const AboutMe = () => {
 	return (
 		<div className="flex py-36 h-fit items-center sm:flex-col-reverse sm:py-8">
-			<div className=" basis-2/3 flex flex-col gap-4 pl-10  md:p-0">
+			<div className=" basis-2/3 flex flex-col gap-4  md:p-0">
 				<Fade triggerOnce cascade damping={0.4} delay={1000}>
 					<h3 className="text-6xl font-bold leading md:text-4xl">
-						a little bit <br /> about me...
+						a little bit <br /> about me 👨‍💻
 					</h3>
 					<div className="flex flex-col gap-4 w-2/3 text-gray-600 md:w-2/3 md:text-sm sm:w-full">
 						<p>
@@ -32,7 +32,7 @@ const AboutMe = () => {
 										src="/github.svg"
 										width={30}
 										height={30}
-										alt="github"
+										alt="github icon"
 									/>
 								</a>
 								<a href="https://linkedin.com/in/utkarsh-maurya">
@@ -40,7 +40,7 @@ const AboutMe = () => {
 										src="/linkedin.svg"
 										width={30}
 										height={30}
-										alt="linkedin"
+										alt="linkedin icon"
 									/>
 								</a>
 								<a href="https://x.com/coder_utkarsh">
@@ -48,7 +48,7 @@ const AboutMe = () => {
 										src="/twitter.svg"
 										width={30}
 										height={30}
-										alt="twitter"
+										alt="twitter icon"
 									/>
 								</a>
 								<a href="https://instagram.com/iam.utkarsh">
@@ -56,7 +56,15 @@ const AboutMe = () => {
 										src="/instagram.svg"
 										width={30}
 										height={30}
-										alt="instagram"
+										alt="instagram icon"
+									/>
+								</a>
+								<a href="mailto:itsutkarsh123@gmail.com">
+									<Image
+										src="/mail.svg"
+										width={30}
+										height={30}
+										alt="email icon"
 									/>
 								</a>
 							</div>

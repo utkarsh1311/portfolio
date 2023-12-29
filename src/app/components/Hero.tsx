@@ -9,7 +9,7 @@ const Hero = () => {
 					<h1 className=" text-8xl font-bold text-gray-900 mb-4 text-center sm:text-6xl">
 						Utkarsh Maurya
 					</h1>
-					<p className="text-center text-gray-500 w-1/2 mx-auto">
+					<p className="text-center text-gray-500 w-1/2 mx-auto md:w-full">
 						A full stack developer, who loves all things web and anime.
 					</p>
 					<div className="flex gap-2 sm:flex-col">
