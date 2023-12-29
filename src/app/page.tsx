@@ -21,9 +21,9 @@ export default function Home() {
 			<div className="w-3/4 snap-center">
 				<Skills />
 			</div>
-			<div className="w-3/4 snap-center">
+			{/* <div className="w-3/4 snap-center">
 				<Projects />
-			</div>
+			</div> */}
 		</div>
 	);
 }
