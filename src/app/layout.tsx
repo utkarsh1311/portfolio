@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Poppins, Patua_One } from "next/font/google";
+
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: "Utkarsh Maurya",
@@ -19,7 +21,7 @@ export default function RootLayout({
 			<head>
 				<link rel="shortcut icon" href="favicon.ico" type="image/gif" />
 			</head>
-			<body className={inter.className}>{children}</body>
+			<body className={poppins.className}>{children}</body>
 		</html>
 	);
 }

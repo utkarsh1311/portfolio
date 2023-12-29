@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
 
 const Hero = () => {
 	return (
 		<div className="h-screen">
-			<div className="flex flex-col justify-center items-center h-full gap-4">
+			<div className="flex flex-col justify-center items-center h-full gap-4 ">
 				<Fade direction="up" triggerOnce cascade damping={0.4}>
 					<h1 className=" text-8xl font-bold text-gray-900 mb-4 text-center sm:text-6xl">
 						Utkarsh Maurya
@@ -21,6 +22,13 @@ const Hero = () => {
 						</button>
 					</div>
 				</Fade>
+				<Image
+					src="/arrow-down.svg"
+					width={50}
+					height={50}
+					alt="arrow"
+					className="relative  animate-bounce -bottom-48"
+				/>
 			</div>
 		</div>
 	);

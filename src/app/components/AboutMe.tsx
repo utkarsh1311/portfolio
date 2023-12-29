@@ -3,10 +3,10 @@ import { Fade } from "react-awesome-reveal";
 
 const AboutMe = () => {
 	return (
-		<div className="flex py-36 h-fit items-center sm:flex-col-reverse sm:py-8">
+		<div className="flex py-36 h-fit items-center sm:flex-col-reverse sm:py-8 ">
 			<div className=" basis-2/3 flex flex-col gap-4  md:p-0">
 				<Fade triggerOnce cascade damping={0.4} delay={1000}>
-					<h3 className="text-6xl font-bold leading md:text-4xl">
+					<h3 className="text-6xl font-bold leading md:text-4xl ">
 						a little bit <br /> about me 👨‍💻
 					</h3>
 					<div className="flex flex-col gap-4 w-2/3 text-gray-600 md:w-2/3 md:text-sm sm:w-full">

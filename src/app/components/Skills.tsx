@@ -4,10 +4,10 @@ import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
 	return (
-		<section id="skills" className="h-fit py-36 items-center flex ">
+		<section id="skills" className="h-screen items-center flex ">
 			<div className="w-full">
 				<h3 className="text-6xl font-bold sm:text-4xl mb-6">
-					skills I have 🛠️
+					skills I have 💪
 				</h3>
 
 				{/* Languages */}
@@ -17,7 +17,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Languages
 							</h4>
-							<ul className="flex gap-x-4 font-semibold flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap">
 								{[
 									"JavaScript",
 									"TypeScript",
@@ -38,7 +38,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Frontend
 							</h4>
-							<ul className="flex gap-x-4 font-semibold flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap">
 								{[
 									"Next.js",
 									"React",
@@ -60,7 +60,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Backend
 							</h4>
-							<ul className="flex gap-x-4 font-semibold flex-wrap before:*:">
+							<ul className="flex gap-x-4  flex-wrap before:*:">
 								{["Node.js", "Express.js", "JWT"].map(lang => (
 									<li key={lang} className="text-gray-600">
 										{lang}
@@ -74,7 +74,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Databases
 							</h4>
-							<ul className="flex gap-x-4 font-semibold flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap">
 								{["PostgreSQL", "MySQL", "MongoDB", "Redis"].map(lang => (
 									<li key={lang} className="text-gray-600">
 										{lang}
@@ -88,7 +88,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Dev tools and Platforms
 							</h4>
-							<ul className="flex gap-x-4 font-semibold flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap">
 								{["Git", "GitHub", "VS Code", "Docker", "WSL", "Postman"].map(
 									lang => (
 										<li key={lang} className="text-gray-600">
