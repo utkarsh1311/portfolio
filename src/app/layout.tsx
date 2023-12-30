@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
-import { Inter, Poppins, Patua_One } from "next/font/google";
+import { Inter, Poppins} from "next/font/google";
 
 import "./globals.css";
+import Navbar from "./components/Navbar";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({ weight: "400", subsets: ["latin"] });
@@ -21,7 +22,10 @@ export default function RootLayout({
 			<head>
 				<link rel="shortcut icon" href="favicon.ico" type="image/gif" />
 			</head>
-			<body className={poppins.className}>{children}</body>
+			<body className={poppins.className}>
+					<Navbar />
+				{children}
+			</body>
 		</html>
 	);
 }
