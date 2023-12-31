@@ -17,7 +17,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Languages
 							</h4>
-							<ul className="flex gap-x-4  flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{[
 									"JavaScript",
 									"TypeScript",
@@ -26,7 +26,7 @@ const Skills = () => {
 									"Bash",
 									"C",
 								].map(lang => (
-									<li key={lang} className="text-gray-600">
+									<li key={lang} className="">
 										{lang}
 									</li>
 								))}
@@ -38,7 +38,7 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Frontend
 							</h4>
-							<ul className="flex gap-x-4  flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{[
 									"Next.js",
 									"React",
@@ -48,7 +48,7 @@ const Skills = () => {
 									"HTML",
 									"CSS",
 								].map(lang => (
-									<li key={lang} className="text-gray-600">
+									<li key={lang} className="">
 										{lang}
 									</li>
 								))}
@@ -60,9 +60,9 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Backend
 							</h4>
-							<ul className="flex gap-x-4  flex-wrap before:*:">
+							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{["Node.js", "Express.js", "JWT"].map(lang => (
-									<li key={lang} className="text-gray-600">
+									<li key={lang} className="">
 										{lang}
 									</li>
 								))}
@@ -74,9 +74,9 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Databases
 							</h4>
-							<ul className="flex gap-x-4  flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{["PostgreSQL", "MySQL", "MongoDB", "Redis"].map(lang => (
-									<li key={lang} className="text-gray-600">
+									<li key={lang} className="">
 										{lang}
 									</li>
 								))}
@@ -88,10 +88,10 @@ const Skills = () => {
 							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Dev tools and Platforms
 							</h4>
-							<ul className="flex gap-x-4  flex-wrap">
+							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{["Git", "GitHub", "VS Code", "Docker", "WSL", "Postman"].map(
 									lang => (
-										<li key={lang} className="text-gray-600">
+										<li key={lang} className="">
 											{lang}
 										</li>
 									)

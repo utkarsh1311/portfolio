@@ -13,6 +13,18 @@ const config: Config = {
 				"gradient-conic":
 					"conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
 			},
+			colors: {
+				primary: "#F0F4FF",
+
+				"dark-primary": "#070831",
+				"dark-secondary": "#fff4d6",
+			},
+			textColor: {
+				primary: "#000000",
+				secondary: "#475569",
+				"dark-primary": "#fff4d6",
+				"dark-secondary": "#c2b99c",
+			},
 		},
 		screens: {
 			xl: { max: "1279px" },
@@ -29,5 +41,6 @@ const config: Config = {
 		},
 	},
 	plugins: [require("tailwind-scrollbar-hide")],
+	darkMode: "class",
 };
 export default config;
