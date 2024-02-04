@@ -8,10 +8,7 @@ const BlogList = () => {
 		<div className="mt-14">
 			<ul className="grid grid-cols-2 gap-x-12 gap-y-8 mt-8 sm:grid-cols-1">
 				{blogsMetaData.map((blog, index) => (
-					<li
-						key={index}
-						className="border-2 border-gray-400 p-8 rounded shadow"
-					>
+					<li key={index} className="border-2 p-8 rounded shadow">
 						<Link
 							href={`/blogs/${blog.id}`}
 							className="flex flex-col gap-4 h-full"
@@ -30,7 +27,13 @@ const BlogList = () => {
 									</span>
 								))}
 							</p>
-							<p className="text-gray-600 ">{blog.date}</p>
+							<p className="text-gray-600 ">
+								{new Date(blog.date).toLocaleDateString("en-US", {
+									year: "numeric",
+									month: "long",
+									day: "numeric",
+								})}
+							</p>
 						</Link>
 					</li>
 				))}

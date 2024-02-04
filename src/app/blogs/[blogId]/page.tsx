@@ -3,6 +3,7 @@ import fs from "fs";
 import Markdown from "markdown-to-jsx";
 import matter from "gray-matter";
 import getBlogsMetaData from "@/lib/getBlogsMetadata";
+import Link from "next/link";
 
 const getBlogContent = (blogId: string) => {
 	const blogsFolder = path.join(process.cwd(), "blog_posts");
@@ -39,7 +40,7 @@ const BlogPostPage = (props: any) => {
 		<div className="mt-14">
 			<article
 				className="prose prose-xl sm:prose-sm max-w-none w-3/4 sm:w-full   prose-gray mx-auto p-6 dark:prose-headings:text-dark-primary dark:prose-p:text-dark-secondary dark:prose-strong:text-dark-primary dark:prose-invert 
-			 "
+				"
 			>
 				<div className="py-6 border-b-2 border-gray-500">
 					<h1 className="font-bold">{title}</h1>
@@ -56,6 +57,9 @@ const BlogPostPage = (props: any) => {
 					</div>
 				</div>
 				<Markdown>{body}</Markdown>
+				<Link className="font-bold" href={`/blogs`}>
+					Get back to blogs
+				</Link>
 			</article>
 		</div>
 	);

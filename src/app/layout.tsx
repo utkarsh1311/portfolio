@@ -21,7 +21,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head>
-				<link rel="shortcut icon" href="favicon.ico" type="image/gif" />
+				<link rel="shortcut icon" href="db.ico" type="image/gif" />
 			</head>
 			<body className={`${poppins.className} bg-primary dark:bg-dark-primary`}>
 				<Providers>
