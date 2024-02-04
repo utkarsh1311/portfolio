@@ -59,7 +59,7 @@ const Projects = () => {
 	return (
 		<section
 			id="projects"
-			className="h-screen flex flex-col justify-center py-8  sm:h-fit sm:py-16"
+			className="h-screen flex flex-col justify-center py-8 pt-14  sm:h-fit sm:py-16"
 		>
 			<div className="w-full">
 				<h3 className="text-6xl font-bold sm:text-4xl">my projects 🛠️</h3>
