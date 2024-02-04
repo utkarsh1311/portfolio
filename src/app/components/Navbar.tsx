@@ -25,7 +25,7 @@ const Navbar = () => {
 				<li>
 					<Link
 						className="hover:text-gray-800 hover:bg-gray-100 p-2 rounded-md transition-all duration-300"
-						href="/projects"
+						href="/"
 					>
 						Contact me
 					</Link>
