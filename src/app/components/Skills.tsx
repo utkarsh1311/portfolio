@@ -14,9 +14,9 @@ const Skills = () => {
 				<div className="grid grid-cols-2  sm:grid-cols-1">
 					<Fade triggerOnce cascade damping={0.4}>
 						<div className="mt-6 ">
-							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
+							<h3 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Languages
-							</h4>
+							</h3>
 							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{[
 									"JavaScript",
@@ -35,9 +35,9 @@ const Skills = () => {
 
 						{/* Frontend */}
 						<div className="mt-6">
-							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
+							<h3 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Frontend
-							</h4>
+							</h3>
 							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{[
 									"Next.js",
@@ -57,9 +57,9 @@ const Skills = () => {
 
 						{/* Backend */}
 						<div className="mt-6">
-							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
+							<h3 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Backend
-							</h4>
+							</h3>
 							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{["Node.js", "Express.js", "JWT"].map(lang => (
 									<li key={lang} className="">
@@ -71,9 +71,9 @@ const Skills = () => {
 
 						{/* Databases */}
 						<div className="mt-6">
-							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
+							<h3 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Databases
-							</h4>
+							</h3>
 							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{["PostgreSQL", "MySQL", "MongoDB", "Redis"].map(lang => (
 									<li key={lang} className="">
@@ -85,9 +85,9 @@ const Skills = () => {
 
 						{/* Dev tools and Platforms */}
 						<div className="mt-6">
-							<h4 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
+							<h3 className="text-3xl font-bold mb-2 sm:text-2xl sm:mb-1">
 								Dev tools and Platforms
-							</h4>
+							</h3>
 							<ul className="flex gap-x-4  flex-wrap dark:text-dark-secondary">
 								{["Git", "GitHub", "VS Code", "Docker", "WSL", "Postman"].map(
 									lang => (
