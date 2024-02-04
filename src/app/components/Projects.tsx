@@ -35,7 +35,7 @@ const Projects = () => {
 				"MongoDB",
 			],
 			github: "https://github.com/utkarsh1311/pokedex",
-			website: "ttps://pokedex-blue-delta.vercel.app/",
+			website: "https://pokedex-blue-delta.vercel.app/",
 		},
 		{
 			name: "make-project",
