@@ -6,9 +6,9 @@ const Skills = () => {
 	return (
 		<section id="skills" className="h-screen items-center flex ">
 			<div className="w-full">
-				<h3 className="text-6xl font-bold sm:text-4xl mb-6">
+				<h2 className="text-6xl font-bold sm:text-4xl mb-6">
 					skills I have 💪
-				</h3>
+				</h2>
 
 				{/* Languages */}
 				<div className="grid grid-cols-2  sm:grid-cols-1">

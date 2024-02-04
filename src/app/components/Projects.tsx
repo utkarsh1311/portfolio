@@ -62,7 +62,7 @@ const Projects = () => {
 			className="h-screen flex flex-col justify-center py-8 pt-14  sm:h-fit sm:py-16"
 		>
 			<div className="w-full">
-				<h3 className="text-6xl font-bold sm:text-4xl">my projects 🛠️</h3>
+				<h2 className="text-6xl font-bold sm:text-4xl">my projects 🛠️</h2>
 				<div className="grid grid-cols-2 mt-8 md:grid-cols-1 gap-14 sm:gap-8">
 					<Fade triggerOnce cascade damping={0.4}>
 						{projects.map(project => (
