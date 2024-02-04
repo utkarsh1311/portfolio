@@ -40,7 +40,10 @@ const config: Config = {
 			// => @media (max-width: 639px) { ... }
 		},
 	},
-	plugins: [require("tailwind-scrollbar-hide")],
+	plugins: [
+		require("tailwind-scrollbar-hide"),
+		require("@tailwindcss/typography"),
+	],
 	darkMode: "class",
 };
 export default config;

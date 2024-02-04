@@ -67,7 +67,7 @@ const Projects = () => {
 					<Fade triggerOnce cascade damping={0.4}>
 						{projects.map(project => (
 							<div
-								className="p-8 flex-col flex gap-4 border-2 "
+								className="p-8 flex-col flex gap-4 border-2 shadow rounded "
 								key={project.name}
 							>
 								<div className="flex w-full  gap-4 items-center">

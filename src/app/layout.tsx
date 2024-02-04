@@ -23,7 +23,7 @@ export default function RootLayout({
 			<head>
 				<link rel="shortcut icon" href="favicon.ico" type="image/gif" />
 			</head>
-			<body className={poppins.className}>
+			<body className={`${poppins.className} bg-primary dark:bg-dark-primary`}>
 				<Providers>
 					<Navbar />
 					{children}
