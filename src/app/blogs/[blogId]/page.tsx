@@ -39,7 +39,7 @@ const BlogPostPage = (props: any) => {
 	return (
 		<div className="mt-14">
 			<article
-				className="prose prose-xl sm:prose-sm prose-gray mx-auto p-6 dark:prose-headings:text-dark-primary dark:prose-p:text-dark-secondary dark:prose-strong:text-dark-primary dark:prose-invert 
+				className="prose prose-xl sm:prose-sm prose-gray mx-auto p-6 prose-p:text-base dark:prose-headings:text-dark-primary dark:prose-p:text-dark-secondary dark:prose-strong:text-dark-primary dark:prose-invert 
 				"
 			>
 				<div className="py-6 border-b-2 border-gray-500">
