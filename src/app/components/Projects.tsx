@@ -75,7 +75,7 @@ const Projects = () => {
 										{project.name}
 									</h3>
 
-									<a href="" className="ml-auto">
+									<a href={project.github} className="ml-auto">
 										<Image
 											src="/github.svg"
 											width={30}
@@ -84,7 +84,7 @@ const Projects = () => {
 											className="dark:dark-filter"
 										/>
 									</a>
-									<a href="">
+									<a href={project.website}>
 										<Image
 											src="/link.svg"
 											width={30}
