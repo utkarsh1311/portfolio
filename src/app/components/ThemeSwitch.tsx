@@ -32,7 +32,7 @@ export default function ThemeSwitch() {
 				height={30}
 				alt="dark mode icon"
 				onClick={() => setTheme("light")}
-				className="ml-auto dark:dark-filter"
+				className="ml-auto dark:dark-filter cursor-pointer transition-all duration-300 hover:scale-125"
 			/>
 		);
 	}
@@ -45,7 +45,7 @@ export default function ThemeSwitch() {
 				height={30}
 				alt="light mode icon"
 				onClick={() => setTheme("dark")}
-				className="ml-auto dark:dark-filter"
+				className="ml-auto dark:dark-filter cursor-pointer transition-all duration-300 hover:scale-125"
 			/>
 		);
 	}

@@ -8,7 +8,7 @@ const Navbar = () => {
 			<ul className="flex justify-start gap-8 items-center sm:gap-2 text-sm">
 				<li>
 					<Link
-						className="hover:text-gray-800 hover:bg-gray-100 p-2 rounded-md transition-all duration-300"
+						className="hover:text-gray-900 hover:bg-gray-300 p-2 rounded-md transition-all duration-300 dark:hover:bg-dark-secondary"
 						href="/"
 					>
 						Home
@@ -17,14 +17,14 @@ const Navbar = () => {
 				<li>
 					<Link
 						href="/blogs"
-						className="hover:text-gray-800 hover:bg-gray-100 p-2 rounded-md transition-all duration-300"
+						className="hover:text-gray-900 hover:bg-gray-300 p-2 rounded-md transition-all duration-300 dark:hover:bg-dark-secondary"
 					>
 						Blogs
 					</Link>
 				</li>
 				<li>
 					<Link
-						className="hover:text-gray-800 hover:bg-gray-100 p-2 rounded-md transition-all duration-300"
+						className="hover:text-gray-900 hover:bg-gray-300 p-2 rounded-md transition-all duration-300 dark:hover:bg-dark-secondary"
 						href="/"
 					>
 						Contact me

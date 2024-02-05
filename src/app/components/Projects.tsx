@@ -81,7 +81,7 @@ const Projects = () => {
 											width={30}
 											height={30}
 											alt="link to the github repo of project"
-											className="dark:dark-filter"
+											className="dark:dark-filter hover:scale-125 transition-all duration-150"
 										/>
 									</a>
 									<a href={project.website}>
@@ -90,7 +90,7 @@ const Projects = () => {
 											width={30}
 											height={30}
 											alt="link to the github repo of project"
-											className="dark:dark-filter"
+											className="dark:dark-filter hover:scale-125 transition-all duration-150"
 										/>
 									</a>
 								</div>

@@ -29,6 +29,7 @@ const AboutMe = () => {
 							<div className="flex gap-8 mt-4 dark:dark-filter">
 								<a href="https://github.com/utkarsh1311">
 									<Image
+									className=" hover:scale-125 transition-all duration-150"
 										src="/github.svg"
 										width={30}
 										height={30}
@@ -37,15 +38,16 @@ const AboutMe = () => {
 								</a>
 								<a href="https://linkedin.com/in/utkarsh-maurya">
 									<Image
+									className=" hover:scale-125 transition-all duration-150"
 										src="/linkedin.svg"
 										width={30}
 										height={30}
 										alt="linkedin icon"
-										className=""
 									/>
 								</a>
 								<a href="https://x.com/coder_utkarsh">
 									<Image
+									className=" hover:scale-125 transition-all duration-150"
 										src="/twitter.svg"
 										width={30}
 										height={30}
@@ -54,6 +56,7 @@ const AboutMe = () => {
 								</a>
 								<a href="https://instagram.com/iam.utkarsh">
 									<Image
+									className=" hover:scale-125 transition-all duration-150"
 										src="/instagram.svg"
 										width={30}
 										height={30}
@@ -62,6 +65,7 @@ const AboutMe = () => {
 								</a>
 								<a href="mailto:itsutkarsh123@gmail.com">
 									<Image
+									className=" hover:scale-125 transition-all duration-150"
 										src="/mail.svg"
 										width={30}
 										height={30}
