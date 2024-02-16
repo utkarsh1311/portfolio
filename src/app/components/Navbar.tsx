@@ -22,14 +22,6 @@ const Navbar = () => {
 						Blogs
 					</Link>
 				</li>
-				<li>
-					<Link
-						className="hover:text-gray-900 hover:bg-gray-300 p-2 rounded-md transition-all duration-300 dark:hover:bg-dark-secondary"
-						href="/"
-					>
-						Contact me
-					</Link>
-				</li>
 			</ul>
 			<ThemeSwitch />
 		</nav>
