@@ -1,10 +1,12 @@
 import Image from "next/image";
 import React from "react";
 import { Fade } from "react-awesome-reveal";
+import pattern from "../../../public/download.png"
+
 
 const Hero = () => {
 	return (
-		<div className="h-screen ">
+		<div style={{ background: `url(${pattern.src})`, objectFit: "contain"}} className="h-screen ">
 			<div className="flex flex-col justify-center items-center h-full gap-4 ">
 				<Fade direction="up" triggerOnce cascade damping={0.4}>
 					<h1 className=" text-8xl font-bold text-gray-900 mb-4 text-center sm:text-6xl dark:text-dark-primary">
