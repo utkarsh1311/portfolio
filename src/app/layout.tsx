@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/react";
 
 import Navbar from "./components/Navbar";
 import "./globals.css";
@@ -30,6 +31,7 @@ export default function RootLayout({
 					{children}
 				</Providers>
 				<SpeedInsights />
+				<Analytics />
 			</body>
 		</html>
 	);
