@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 
 export default function Home() {
 	return (
-		<div className="min-h-screen flex flex-col items-center overflow-y-scroll scrollbar-hide snap-y snap-mandatory h-screen bg-primary dark:bg-dark-primary text-primary dark:text-dark-primary">
+		<div className="min-h-screen flex flex-col items-center overflow-y-scroll scrollbar-hide snap-y snap-mandatory h-screen bg-primary dark:bg-dark-primary text-primary dark:text-dark-primary sm:snap-none">
 			<div className="w-3/4 snap-center sm:w-5/6">
 				<Hero />
 			</div>
