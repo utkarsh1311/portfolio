@@ -89,7 +89,7 @@ const AboutMe = () => {
 
 					<Image
 						src="/profile.jpg"
-						className=" aspect-square rounded-lg object-cover col-start-1 row-start-1 z-10 sm:w-2/3 sm:mx-auto dark:sepia"
+						className=" aspect-square rounded-lg object-cover col-start-1 row-start-1 z-10 sm:w-2/3 sm:mx-auto dark:sepia dark:hover:sepia-0 transition-all duration-500"
 						width={400}
 						height={400}
 						alt="Image of the author"
