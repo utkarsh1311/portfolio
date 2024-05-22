@@ -1,6 +1,7 @@
 "use client";
 
 import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -13,6 +14,9 @@ export default function Home() {
 			</div>
 			<div className="w-3/4 snap-center sm:w-5/6">
 				<AboutMe />
+			</div>
+			<div className="w-3/4 snap-center sm:w-5/6 ">
+				<Experience />
 			</div>
 			<div className="w-3/4 snap-center sm:w-5/6 ">
 				<Skills />
