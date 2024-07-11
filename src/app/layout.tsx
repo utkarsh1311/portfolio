@@ -24,6 +24,7 @@ export default function RootLayout({
 		<html lang="en" suppressHydrationWarning>
 			<head>
 				<link rel="shortcut icon" href="/favicon.ico" type="image/gif" />
+				<meta name="google-site-verification" content="T1wRFIfvEePSaYspISPTOf8EeR05JF2XjtRT7ilL-DQ" />
 			</head>
 			<body className={`${poppins.className} bg-primary dark:bg-dark-primary`}>
 				<Providers>
