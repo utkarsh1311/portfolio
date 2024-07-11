@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Utkarsh\'s Portfolio',
     images: [
       {
-        url: 'https://ik.imagekit.io/utkarsh1311/portfolio.png?updatedAt=1720704145574&tr=w-1200%2Ch-675%2Cfo-auto', // Must be an absolute URL
+        url: 'https://ik.imagekit.io/utkarsh1311/portfolio.png?updatedAt=1720704694439', // Must be an absolute URL
         width: 1800,
         height: 1600,
         alt: 'Utkarsh Maurya portfolio website image',
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: 'Utkarsh Maurya',
     description: 'I\'m Utkarsh Maurya, a software engineer who loves to build things for the web. I specialize in building high-quality websites and applications with a focus on performance and user experience.',
     creator: '@coder_utkarsh',
-    images: ['https://ik.imagekit.io/utkarsh1311/portfolio.png?updatedAt=1720704145574&tr=w-1200%2Ch-675%2Cfo-auto'], // Must be an absolute URL
+    images: ['https://ik.imagekit.io/utkarsh1311/portfolio.png?updatedAt=1720704694439'], // Must be an absolute URL
 	},
 	category: "Portfolio",
 	
